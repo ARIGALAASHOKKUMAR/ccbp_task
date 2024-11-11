@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+input {
+    border-radius: 20px;
+    padding:10px;
+    width: 50%;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(red, blue, green);
+    background-image: url("https://raw.githubusercontent.com/ARIGALAASHOKKUMAR/ecommerce/refs/heads/main/src/components/images/img4.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.form {
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 30px;
+    width:50vw;
+    box-shadow: 0 0 10px 10px yellow;
+}
+.inner-form{
+    width:25vw;
+    border-radius: 10px;
+    
+}
+
+button {
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+form:hover {
+    box-shadow: 0 0 10px 10px orange;
+}
+
+input:hover {
+    border-color: orange;
+}
+
+.btn {
+    text-align: center;
+    margin-right: 120px;
+
+}
+
+p {
+    margin-left: 20px;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+}
+.l-image{
+    width:25vw;
+}
+.signup{
+    color: blue;
+    text-decoration: underline;
+}
+.res{
+    color:red;
+}
+@media (max-width:576px){
+    .form{
+        width:60vw;
+    }
+}
